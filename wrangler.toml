@@ -1,0 +1,12 @@
+name = "devfest-wrangler"
+type = "javascript"
+
+account_id = "61891fb7691f574464ece3b855b080e8"
+workers_dev = true
+route = "dev.omsk.community/*"
+zone_id = "f5a21521cc62c5695c1f933dee6403f5"
+compatibility_date = "2021-10-29"
+
+kv_namespaces = [
+  { binding = "WORKER_KV", id = "a3fc75bb25804ab3adc9bb35089cabff", preview_id = "a3fc75bb25804ab3adc9bb35089cabff" }
+]
